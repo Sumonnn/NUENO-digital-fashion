@@ -13,6 +13,7 @@ html,body{
     overflow: hidden;
     width: 100%;
 }
+/* ----------------p1----------------- */
 .page1{
     width: 100%;
     min-height: 175vh;
@@ -67,4 +68,38 @@ nav>p:nth-child(2){
     font-weight: 100;
     font-size: 20vw;
     position: relative;
+}
+/* ---------------p2------------------ */
+.page2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vw;
+    background-color:#191917;
+}
+.page2>h3{
+    color: #ffffff;
+    text-align: center;
+    line-height: 2vw;
+}
+.page2>h3>span{
+    border-bottom: 2px solid #BB8D8D;
+}
+.page2>h3>i{
+    font-style: italic;
+    font-size: 2.5vw;
+    font-weight: 100;
+    font-family: serif;
+}
+.page2>p{
+    color: #BB8D8D;
+    font-weight: 600
+}
+.page2 p i{
+    font-weight: 100;
+    font-family: serif;
+    font-size: 1.4vw;
 }
